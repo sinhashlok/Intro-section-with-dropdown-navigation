@@ -1,0 +1,161 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    /* NAV START */
+nav {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    padding: 1em 2em;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: left;
+    
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    
+    color:  hsl(0, 0%, 41%);
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.logo-icon {
+    margin-left: 1em;
+    padding-right: 2em;
+
+    height: 1.5em;
+}
+
+.nav-item {
+    padding: 0em 1em;
+}
+
+.arrow-down-icon {
+    /* margin: auto; */
+    margin-bottom: 0.1em;
+    padding: 0em 0.5em;
+}
+
+
+.nav-credentials {
+    display: flex;
+    align-items: center;
+
+    color:  hsl(0, 0%, 41%);
+}
+
+.credential {
+    padding: 0em 2em;
+}
+
+.credential:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.register {
+    padding: 0.75em 1.5em;
+    border: 1.5px solid;
+    border-color: hsl(0, 0%, 41%);
+    border-radius: 1em;
+}
+
+.register:hover {
+    border-color: black;
+}
+ /* NAV END */
+
+
+ /* MAIN START */
+ main {
+    margin: auto;
+    margin-top: 2em;
+    width: 82%;
+
+    display: flex;
+    flex-direction: row;
+ }
+
+ .left {
+    margin-top: 10em;
+    width: 50%;
+ }
+
+ .title {
+    font-size: 6em;
+    font-weight: bolder;
+ }
+
+ .tag {
+    margin-top: 2em;
+
+    color:  hsl(0, 0%, 41%);
+
+    width: 60%;
+    font-size: 18px;
+
+    line-height: 1.2em;
+ }
+
+
+ button {
+    margin-top: 2em;
+
+    background-color: black;
+    color: white;
+
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 0.75em;
+
+    padding: 0.75em 1.3em;
+ }
+
+ button:hover {
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+ }
+
+ .logos {
+    margin-top: 6em;
+ }
+
+ .logo-item {
+    padding-right: 4em;
+ }
+
+
+
+
+ .attribution {
+    margin-top: 14em;
+ }
+
+ .right {
+    width: 50%;
+ }
+
+ .hero-desktop-img {
+    margin-top: 3em;
+    padding-left: 10em;
+    height: 43em;
+ }
